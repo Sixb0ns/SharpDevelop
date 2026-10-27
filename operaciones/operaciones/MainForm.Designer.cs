@@ -55,16 +55,20 @@ namespace operaciones
 			// 
 			// textBox1
 			// 
+			this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.textBox1.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.textBox1.Location = new System.Drawing.Point(10, 29);
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(64, 20);
+			this.textBox1.Size = new System.Drawing.Size(64, 19);
 			this.textBox1.TabIndex = 0;
 			// 
 			// textBox2
 			// 
+			this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.textBox2.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.textBox2.Location = new System.Drawing.Point(102, 29);
 			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(64, 20);
+			this.textBox2.Size = new System.Drawing.Size(64, 19);
 			this.textBox2.TabIndex = 1;
 			// 
 			// label1
@@ -77,6 +81,7 @@ namespace operaciones
 			// 
 			// label2
 			// 
+			this.label2.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(172, 27);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(26, 23);
@@ -86,6 +91,7 @@ namespace operaciones
 			// 
 			// label3
 			// 
+			this.label3.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.Location = new System.Drawing.Point(196, 29);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(74, 23);
@@ -94,66 +100,79 @@ namespace operaciones
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(36, 102);
+			this.button1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.button1.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Location = new System.Drawing.Point(38, 120);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 5;
 			this.button1.Text = "*";
-			this.button1.UseVisualStyleBackColor = true;
+			this.button1.UseVisualStyleBackColor = false;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// button2
 			// 
-			this.button2.Location = new System.Drawing.Point(161, 102);
+			this.button2.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.button2.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button2.Location = new System.Drawing.Point(163, 120);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(75, 23);
 			this.button2.TabIndex = 6;
 			this.button2.Text = "/";
-			this.button2.UseVisualStyleBackColor = true;
+			this.button2.UseVisualStyleBackColor = false;
 			this.button2.Click += new System.EventHandler(this.Button2Click);
 			// 
 			// button3
 			// 
-			this.button3.Location = new System.Drawing.Point(36, 154);
+			this.button3.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.button3.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button3.Location = new System.Drawing.Point(38, 172);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(75, 23);
 			this.button3.TabIndex = 7;
 			this.button3.Text = "+";
-			this.button3.UseVisualStyleBackColor = true;
+			this.button3.UseVisualStyleBackColor = false;
 			this.button3.Click += new System.EventHandler(this.Button3Click);
 			// 
 			// button4
 			// 
-			this.button4.Location = new System.Drawing.Point(161, 154);
+			this.button4.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.button4.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button4.Location = new System.Drawing.Point(163, 172);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(75, 23);
 			this.button4.TabIndex = 8;
 			this.button4.Text = "-";
-			this.button4.UseVisualStyleBackColor = true;
+			this.button4.UseVisualStyleBackColor = false;
 			this.button4.Click += new System.EventHandler(this.Button4Click);
 			// 
 			// button5
 			// 
-			this.button5.Location = new System.Drawing.Point(36, 209);
+			this.button5.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.button5.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button5.Location = new System.Drawing.Point(38, 227);
 			this.button5.Name = "button5";
 			this.button5.Size = new System.Drawing.Size(75, 23);
 			this.button5.TabIndex = 9;
 			this.button5.Text = "%";
-			this.button5.UseVisualStyleBackColor = true;
+			this.button5.UseVisualStyleBackColor = false;
 			this.button5.Click += new System.EventHandler(this.Button5Click);
 			// 
 			// button6
 			// 
-			this.button6.Location = new System.Drawing.Point(161, 199);
+			this.button6.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.button6.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button6.Location = new System.Drawing.Point(163, 217);
 			this.button6.Name = "button6";
 			this.button6.Size = new System.Drawing.Size(75, 43);
 			this.button6.TabIndex = 10;
 			this.button6.Text = "Formula General";
-			this.button6.UseVisualStyleBackColor = true;
+			this.button6.UseVisualStyleBackColor = false;
 			this.button6.Click += new System.EventHandler(this.Button6Click);
 			// 
 			// label4
 			// 
+			this.label4.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label4.Location = new System.Drawing.Point(10, 3);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(64, 23);
@@ -162,6 +181,7 @@ namespace operaciones
 			// 
 			// label5
 			// 
+			this.label5.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label5.Location = new System.Drawing.Point(102, 3);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(64, 23);
@@ -170,13 +190,16 @@ namespace operaciones
 			// 
 			// textBox3
 			// 
+			this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.textBox3.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.textBox3.Location = new System.Drawing.Point(56, 76);
 			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(64, 20);
+			this.textBox3.Size = new System.Drawing.Size(64, 19);
 			this.textBox3.TabIndex = 13;
 			// 
 			// label6
 			// 
+			this.label6.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label6.Location = new System.Drawing.Point(56, 50);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(64, 23);
@@ -187,7 +210,8 @@ namespace operaciones
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 254);
+			this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+			this.ClientSize = new System.Drawing.Size(284, 274);
 			this.Controls.Add(this.label6);
 			this.Controls.Add(this.textBox3);
 			this.Controls.Add(this.label5);
