@@ -57,5 +57,12 @@ namespace operaciones
 			double a=Convert.ToDouble(textBox1.Text)-Convert.ToDouble(textBox2.Text);
 			label3.Text=Convert.ToString(a);			
 		}
+		
+		void Button5Click(object sender, EventArgs e)
+		{
+			label1.Text="%";
+			double a=Convert.ToDouble(textBox1.Text)%Convert.ToDouble(textBox2.Text);
+			label3.Text=Convert.ToString(a);	
+		}
 	}
 }
